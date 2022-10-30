@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
       <div className="footer-labels">
         <img src="./images/zuri.png" alt="zuri logo" id="zuri" />
-        <p>HNG Internship 9 Frontend Task</p>
+        <p id="footer-text">HNG Internship 9 Frontend Task</p>
         <img src="./images/i4g.png" alt="i4g logo" id="iforg" />
       </div>
     </div>
