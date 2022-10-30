@@ -1,0 +1,62 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+  background: #F4F5F7;
+  margin: 0 2em;
+}
+
+.profile {
+  width: max-content;
+  margin: 64px auto 56px;
+  text-align: center;
+}
+
+#profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+#twitter {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+}
+
+#slack {
+  display: none;
+}
+
+.links a {
+  display: block;
+  width: 100%;
+  background-color: #EAECF0;
+  border-radius: 8px;
+  color: #101828;
+  margin-bottom: 24px;
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center; 
+}
+
+.footer-icons {
+  width: max-content;
+  margin: 48px auto 72px;
+}
+
+.footer-icons img {
+  margin: 0 12px;
+}
+
+.footer-labels {
+  border-top: 1px solid #EAECF0;;
+} */
