@@ -48,6 +48,16 @@ body {
   text-align: center; 
 }
 
+.links a:hover {
+  background-color: #D0D5DD;
+}
+
+.links a:focus{
+  background-color: #EAECF0;
+  border: 1px solid #98A2B3;
+}
+
+
 .footer-icons {
   width: max-content;
   margin: 48px auto 72px;
@@ -79,4 +89,17 @@ body {
 
 #iforg {
   width: 96px;
+}
+
+@media screen and (min-width: 520px) {
+  .footer-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .links a {
+    width: 90%;
+    margin: 0 auto 24px;
+  }
 }
