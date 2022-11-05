@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
-  background: #F4F5F7;
   margin: 0 2em;
 }
 
@@ -91,6 +90,123 @@ body {
   width: 96px;
 }
 
+/* styling for contact form starts here*/
+/* .contact-page {
+  padding: 64px 16px 32px;
+}
+
+.contact-page h1 {
+  font-size: 36px;
+  font-weight: 600px;
+  color: #101828;
+  padding-bottom: 16px;
+}
+
+.contact-page p {
+  color: #475467;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+
+.contact-page .text-input label {
+  color: #344054;
+  font-weight: 500;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.contact-page .text-input input,
+.contact-page .text-input textarea {
+  color: #101828;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 14px;
+  width: 100%;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(45, 46, 48, 0.05);
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+.contact-page .text-input input::placeholder,
+.contact-page .text-input textarea::placeholder {
+  color: #667085;
+}
+
+.contact-page .text-input input:focus,
+.contact-page .text-input textarea:focus {
+  outline: none;
+  border: 1px solid #84CAFF;
+}
+.contact-page .text-input textarea:focus {
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 3px 2px #d1e9ffcb;;
+}
+
+.contact-page .text-input textarea,
+.contact-page input[type="submit"] {
+  font-family: inherit;
+}
+
+.contact-page .check-input {
+  display: flex;
+  padding-bottom: 32px;
+}
+
+.contact-page .check-input label {
+  color: #475467;
+}
+
+.contact-page input[type="checkbox"] {
+  display: none;
+}
+.contact-page input[type="checkbox"] + label:before {
+  content: "\2713";
+  font-weight: bolder;
+  width: 18px;
+  height: 18px;
+  color: transparent;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+  margin-right: 12px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.contact-page input[type="checkbox"]:checked + label:before {
+  color: #1570EF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0px 0px 3px 1px #D1E9FF
+}
+
+.contact-page input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #1570EF;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-page input[type="submit"]:hover {
+  background-color: #175CD3;
+}
+
+.contact-page input[type="submit"]:focus {
+  background-color: #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 
+              0px 0px 4px 2px #D1E9FF;
+} */
+
+/* Styling for contact form ends here */
+
+/* Responsive styling for big screens */
 @media screen and (min-width: 520px) {
   .footer-labels {
     display: flex;
