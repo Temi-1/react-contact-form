@@ -9,6 +9,7 @@ function App() {
       <ProfileSection />
       <LinkSection />
       <Footer />
+      <Contact />
     </div>
   );
 }
