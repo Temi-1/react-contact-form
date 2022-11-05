@@ -24,6 +24,10 @@ export default function Contact() {
             </div>
             <input type="submit" id="btn_submit" value="Send Message"></input>
         </form>
+        <label id="">You agree to providing your data to {name} who may contact you.
+            <input type="checkbox"></input>
+            <span class="checkmark"></span>
+        </label>
     </div>
   )
 }
