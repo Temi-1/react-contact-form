@@ -23,7 +23,6 @@ export default function Contact() {
                 <textarea id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
             </div>
             <input type="submit" id="btn_submit" value="Send Message"></input>
-
         </form>
     </div>
   )
