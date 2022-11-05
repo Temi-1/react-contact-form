@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0 2em;
+  margin: 0 4em;
 }
 
 .profile {
@@ -92,7 +92,7 @@ body {
 
 /* styling for contact form starts here*/
 .contact-page {
-  padding: 64px 16px 32px;
+  padding: 64px 32px 32px;
 }
 
 .contact-page h1 {
@@ -157,6 +157,7 @@ body {
 
 .contact-page .check-input label {
   color: #475467;
+  line-height: 28px;
 }
 
 .contact-page input[type="checkbox"] {
@@ -217,5 +218,29 @@ body {
   .links a {
     width: 90%;
     margin: 0 auto 24px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .contact-page {
+    margin: 1em auto;
+  }
+
+  .contact-page .contact-form .name {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .contact-page .contact-form .first,
+  .contact-page .contact-form .last {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-page {
+    width: 70%;
   }
 }

@@ -9,21 +9,23 @@ export default function Contact() {
       <h1 className="contact-heading">Contact Me</h1>
       <p className="contact-text">Hi there, contact me to ask me about anything you have in mind.</p>
       <form className="contact-form">
-          <div className="text-input">
+        <div className="name">
+          <div className="text-input first">
               <label for="first_name">First Name</label>
-              <input type="text" id="first_name" name="first_name" placeholder="Enter your first name"></input>
+              <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required></input>
           </div>
-          <div className="text-input">
+          <div className="text-input last">
               <label for="last_name">Last Name</label>
-              <input type="text" id="last_name" name="last_name" placeholder="Enter your last name"></input>
+              <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required></input>
           </div>
+        </div>
           <div className="text-input">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="yourname@email.com"></input>
+              <input type="email" id="email" name="email" placeholder="yourname@email.com" required></input>
           </div>
           <div className="text-input">
               <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+              <textarea id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..." required></textarea>
           </div>
           <div className="check-input">
             <input type="checkbox" id="agree" name="agree" value="agree"></input>
