@@ -31,7 +31,7 @@ export default function Contact() {
             <input type="checkbox" id="agree" name="agree" value="agree"></input>
             <label for="agree">You agree to providing your data to {author.name} who may contact you.</label>
           </div>
-          <input type="submit" id="btn_submit" value="Send message"></input>
+          <input type="submit" id="btn__submit" value="Send message"></input>
       </form>
     </div>
   )
